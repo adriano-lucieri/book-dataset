@@ -14,7 +14,7 @@ The purpose of this task is to classify the books by the cover image. The BookCo
 
 #### B. Book Cover Image to Genre Subset (BookCover28)
 
-BookCover28 aims at the same task as BookCover30 but has been slightly refined to reduce confusions stemming from the dataset definition. The 'Reference' class is removed as it has high overlap with most of the classes, when analysing the multi-label data distribution. Additionaly, the classes 'Religion & Spirituality' and 'Christian Books & Bibles' are merged together as the latter represents a subset of the former. The remaining subset contains 51,000 book cover images divided into 28 classes. The training set and test set is again split into 90% - 10% respectively.
+BookCover28 aims at the same task as BookCover30 but has been slightly refined to reduce confusions stemming from the dataset definition. The 'Reference' class is removed as it has high overlap with most of the classes, when analysing the multi-label data distribution. Additionaly, the classes 'Religion & Spirituality' and 'Christian Books & Bibles' are merged together as the latter represents a subset of the former. The remaining subset contains 55,100 book cover images divided into 28 classes. The training set and test set is again split into 90% - 10% respectively.
 
 [Technical details](./Task1)
 
