@@ -84,3 +84,80 @@ Test - 5,700 Total
 |27|Teen & Young Adult|1,710|190|
 |28|Test Preparation|1,710|190|
 |29|Travel|1,710|190|
+
+### B. Book Cover Image to Genre Subset (BookCover28)
+
+This task is to explore the a subset of the BookCover30 dataset. There are 55,100 books in 28 classes. This dataset contains book cover images, title, author, and subcategories for each respective book.
+
+#### File Structure
+
+>book28-listing-train.csv
+>book28-listing-test.csv
+
+Training set and test set with all attributes including image URL, title, author, and category.
+
+Format:
+```
+"[AMAZON INDEX (ASIN)}","[FILENAME]","[IMAGE URL]","[TITLE]","[AUTHOR]","[CATEGORY ID]","[CATEGORY]"
+```
+
+Example:
+```
+"1588345297","1588345297.jpg","http://ecx.images-amazon.com/images/I/51l6XIoa3rL.jpg","With Schwarzkopf: Life Lessons of The Bear","Gus Lee","1","Biographies & Memoirs"
+"1404803335","1404803335.jpg","http://ecx.images-amazon.com/images/I/51UJnL3Tx6L.jpg","Magnets: Pulling Together, Pushing Apart (Amazing Science)","Natalie M. Rosinsky","4","Children's Books"
+```
+
+>bookcover28-labels-train.txt
+>bookcover28-labels-test.txt
+
+Simplified training set and test set ground truth listed by image name and class number (listed below).
+
+Format:
+```
+[FILENAME] [CLASS NO.]
+```
+
+Example:
+```
+1588345297.jpg 1
+1404803335.jpg 4
+```
+
+#### Category ID
+
+28 classes
+
+Training - 49,590 Total
+
+Test - 5,510 Total
+
+|Label|Category Name|Training Size|Test Size|
+|---|---|---|---|
+|0|Arts & Photography|1,710|190|
+|1|Biographies & Memoirs|1,710|190|
+|2|Business & Money|1,710|190|
+|3|Calendars|1,710|190|
+|4|Children's Books|1,710|190|
+|5|Comics & Graphic Novels|1,710|190|
+|6|Computers & Technology|1,710|190|
+|7|Cookbooks, Food & Wine|1,710|190|
+|8|Crafts, Hobbies & Home|1,710|190|
+|9|Engineering & Transportation|1,710|190|
+|10|Health, Fitness & Dieting|1,710|190|
+|11|History|1,710|190|
+|12|Humor & Entertainment|1,710|190|
+|13|Law|1,710|190|
+|14|Literature & Fiction|1,710|190|
+|15|Medical Books|1,710|190|
+|16|Mystery, Thriller & Suspense|1,710|190|
+|17|Parenting & Relationships|1,710|190|
+|18|Politics & Social Sciences|1,710|190|
+|19|Religion & Spirituality|3,420|380|
+|20|Romance|1,710|190|
+|21|Science & Math|1,710|190|
+|22|Science Fiction & Fantasy|1,710|190|
+|23|Self-Help|1,710|190|
+|24|Sports & Outdoors|1,710|190|
+|25|Teen & Young Adult|1,710|190|
+|26|Test Preparation|1,710|190|
+|27|Travel|1,710|190|
