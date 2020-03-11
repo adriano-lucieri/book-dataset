@@ -12,6 +12,10 @@ This dataset contains 207,572 books from the Amazon.com, Inc. marketplace.
 
 The purpose of this task is to classify the books by the cover image. The BookCover30 dataset contains 57,000 book cover images divided into 30 classes. The training set and test set is split into 90% - 10% respectively.
 
+#### B. Book Cover Image to Genre Subset (BookCover28)
+
+BookCover28 aims at the same task as BookCover30 but has been slightly refined to reduce confusions stemming from the dataset definition. The 'Reference' class is removed as it has high overlap with most of the classes, when analysing the multi-label data distribution. Additionaly, the classes 'Religion & Spirituality' and 'Christian Books & Bibles' are merged together as the latter represents a subset of the former. The remaining subset contains 51,000 book cover images divided into 28 classes. The training set and test set is again split into 90% - 10% respectively.
+
 [Technical details](./Task1)
 
 ### Task 2: Data Mining
